@@ -25,10 +25,10 @@ class User
 
     /**
      * User constructor.
-     * @param $ip
+     * @param $ipAddress
      * @param $host
-     * @param $refer
-     * @param $ua
+     * @param $referer
+     * @param $userAgent
      */
     function __construct($ipAddress, $host, $referer, $userAgent)
     {
